@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-13T21:37:14 SGT" name="Default suite" finished-at="2022-12-13T21:38:10 SGT" duration-ms="55360">
+    <groups>
+    </groups>
+    <test started-at="2022-12-13T21:37:14 SGT" name="Default test" finished-at="2022-12-13T21:38:10 SGT" duration-ms="55360">
+      <class name="End2EndProjects.FlightBooking.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:End2EndProjects.FlightBooking.ErrorValidationsTest@4b45a2f5]" started-at="2022-12-13T21:37:15 SGT" name="launchApplication" finished-at="2022-12-13T21:37:40 SGT" duration-ms="24857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="infantErrorTest(java.util.HashMap)[pri:0, instance:End2EndProjects.FlightBooking.ErrorValidationsTest@4b45a2f5]" started-at="2022-12-13T21:37:40 SGT" name="infantErrorTest" data-provider="getInfantErrorData" finished-at="2022-12-13T21:37:43 SGT" duration-ms="3607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchFrom=de, searchDest=ch, from=Delhi, discountType=Family and Friends, currency=USD, dest=Chennai, adult=1, infant=4, child=0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- infantErrorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:End2EndProjects.FlightBooking.ErrorValidationsTest@4b45a2f5]" started-at="2022-12-13T21:37:43 SGT" name="tearDown" finished-at="2022-12-13T21:37:44 SGT" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:End2EndProjects.FlightBooking.ErrorValidationsTest@4b45a2f5]" started-at="2022-12-13T21:37:44 SGT" name="launchApplication" finished-at="2022-12-13T21:38:05 SGT" duration-ms="21805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="infantErrorTest(java.util.HashMap)[pri:0, instance:End2EndProjects.FlightBooking.ErrorValidationsTest@4b45a2f5]" started-at="2022-12-13T21:38:05 SGT" name="infantErrorTest" data-provider="getInfantErrorData" finished-at="2022-12-13T21:38:10 SGT" duration-ms="4282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchFrom=ba, searchDest=du, from=Bangkok, discountType=Family and Friends, currency=INR, dest=Dubai, adult=3, infant=4, child=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- infantErrorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:End2EndProjects.FlightBooking.ErrorValidationsTest@4b45a2f5]" started-at="2022-12-13T21:38:10 SGT" name="tearDown" finished-at="2022-12-13T21:38:10 SGT" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- End2EndProjects.FlightBooking.ErrorValidationsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

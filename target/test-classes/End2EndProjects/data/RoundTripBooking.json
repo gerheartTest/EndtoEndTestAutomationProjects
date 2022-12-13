@@ -1,0 +1,33 @@
+[
+{ 
+	"searchFrom" : "de",
+	"from" : "Delhi",
+	"searchDest" : "ch",
+	"dest" : "Chennai",
+	"departMN" : "March",
+	"departDY" : "2",
+	"returnMN" : "May",
+	"returnDY" : "14",
+	"discountType" : "Student",
+	"adult" : "2",
+	"child" : "0",
+	"infant" : "0",
+	"currency" : "USD"
+},
+
+{ 
+	"searchFrom" : "ba",
+	"from" : "Bangkok",
+	"searchDest" : "du",
+	"dest" : "Dubai",
+	"departMN" : "May",
+	"departDY" : "29",
+	"returnMN" : "June",
+	"returnDY" : "2",
+	"discountType" : "Family and Friends",
+	"adult" : "3",
+	"child" : "2",
+	"infant" : "2",
+	"currency" : "INR"
+}
+]
